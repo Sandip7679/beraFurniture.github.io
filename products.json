@@ -1,0 +1,132 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "queen panel bed",
+        "price":  32500,
+        "image": { "fields": { "file": { "url": "./images/product-1.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "king panel bed",
+        "price": 42600,
+        "image": { "fields": { "file": { "url": "./images/product-2.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "single panel bed",
+        "price": 13000,
+        "image": { "fields": { "file": { "url": "./images/product-3.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "twin panel bed",
+        "price": 19000,
+        "image": { "fields": { "file": { "url": "./images/product-4.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Office Chair",
+        "price": 6500,
+        "image": { "fields": { "file": { "url": "./images/product-5.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Table",
+        "price": 9500,
+        "image": { "fields": { "file": { "url": "./images/product-6.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Wooden Dyning Chair",
+        "price": 4500,
+        "image": { "fields": { "file": { "url": "./images/product-7.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Table Chair",
+        "price": 12500,
+        "image": { "fields": { "file": { "url": "./images/product-8.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "Wooden coffee table",
+        "price": 6990,
+        "image": { "fields": { "file": { "url": "./images/product-9.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "Office Chair",
+        "price": 5900,
+        "image": { "fields": { "file": { "url": "./images/product-10.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": {
+        "title": "Two Seat Sofa",
+        "price": 15900,
+        "image": { "fields": { "file": { "url": "./images/product-11.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "12" },
+      "fields": {
+        "title": "Three Seat Sofa",
+        "price": 21900,
+        "image": { "fields": { "file": { "url": "./images/product-12.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "13" },
+      "fields": {
+        "title": "Study Chair",
+        "price": 6900,
+        "image": { "fields": { "file": { "url": "./images/product-13.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "14" },
+      "fields": {
+        "title": "Sofa set",
+        "price": 25900,
+        "image": { "fields": { "file": { "url": "./images/product-14.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "15" },
+      "fields": {
+        "title": "Sofa set",
+        "price": 24900,
+        "image": { "fields": { "file": { "url": "./images/product-15.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "16" },
+      "fields": {
+        "title": "Coffee Table",
+        "price": 7900,
+        "image": { "fields": { "file": { "url": "./images/product-16.jpg" } } }
+      }
+    }
+  ]
+}

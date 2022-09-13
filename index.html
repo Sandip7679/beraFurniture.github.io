@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Bera Furniture</title>
+   <!-- fontowsome -->
+
+   <!-- css -->
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+
+<body>
+   <nav class="navbar">
+      <div class="navbar-center">
+         <span class="nav-icon">
+            <i class="fa-solid fa-bars" style="cursor: pointer;" onclick="showMenu()"></i>
+         </span>
+         <!-- <h1>logo</h1> -->
+         <img style="margin-bottom: 5px;" src="images/logotitle.png" alt="store logo" />
+         <div class="search-container">
+            <input type="text" placeholder=" search...">
+            <a href="#shop"><button type="submit" onclick="searchProducts()"><i class="fa fa-search"></i></button></a>
+         </div>
+         <div class="cart-btn">
+            <span class="nav-icon">
+               <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <div class="cart-items">0</div>
+         </div>
+      </div>
+   </nav>
+
+   <header class="hero">
+      <div class="menubar">
+         <div class="menu">
+            <span class="crossIcon" onclick="closeMenu()">&times;</span>
+            <!-- <i class="fa-solid fa-square-xmark"></i> -->
+            <a href="">Home</a>
+            <a href="#shop" onclick="showAllProducts()">All</a>
+            <a href="#shop" onclick="filterProducts(event)">Bed</a>
+            <a href="#shop" onclick="filterProducts(event)">Sofa</a>
+            <a href="#shop" onclick="filterProducts(event)">Table</a>
+            <a href="#shop" onclick="filterProducts(event)">Chair</a>
+         </div>
+      </div>
+      <img class="bcgimage" src="./images/slide-1.jpeg" alt="">
+      <img class="bcgimage" src="./images/product-8.jpeg" alt="">
+      <img class="bcgimage" src="./images/product-2.jpeg" alt="">
+      <img class="bcgimage" src="./images/slide-2.jpeg" alt="">
+      <img class="bcgimage" src="./images/slide-3.jpeg" alt="">
+      <p id="shop">shop</p>
+      <div class="banner">
+         <h1 class="banner-title">furniture collection</h1>
+         <a style="text-decoration: none;" href="#shop"><button class="banner-btn">shop now</button></a>
+      </div>
+   </header>
+
+   <section class="products">
+      <div class="section-title">
+
+         <h2>our products</h2>
+      </div>
+      <div class="products-center">
+         <!-- single product -->
+         <!-- <article class="product">
+            <div class="img-container">
+               <img src="/images/product-1.jpeg" alt="product" class="product-img" />
+               <button class="bag-btn" data-id="1">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  add to bag
+               </button>
+            </div>
+            <h3>queen bed</h3>
+            <h4>$16</h4>
+         </article>  -->
+         <!-- end of single product -->
+
+      </div>
+   </section>
+
+   <div class="modalImg">
+      <span class="close" onclick="closeImage(event)">&times;</span>
+      <img src="" alt="" class="bigImage">
+   </div>
+   <div class="cart-overlay">
+      <div class="cart">
+         <span class="close-cart">
+            <i class="fa-solid fa-square-xmark"></i>
+         </span>
+         <h2>your cart</h2>
+         <div class="cart-content">
+
+            <!-- cart item -->
+            <!-- <div class="cart-item">
+               <img src="./images/product-1.jpeg" alt="product" />
+               <div>
+                  <h4>queen bed</h4>
+                  <h5>$9.00</h5>
+                  <span class="remove-item">remove</span>
+               </div>
+               <div>
+                  <i class="fas fa-chevron-up"></i>
+                  <p class="item-amount">1</p>
+                  <i class="fas fa-chevron-down"></i>
+               </div>
+            </div> -->
+            <!-- end of cart item -->
+
+         </div>
+         <div class="cart-footer">
+            <h3>your total : Rs. <span class="cart-total">0</span> </h3>
+            <button class="clear-cart banner-btn">clear-cart</button>
+         </div>
+      </div>
+   </div>
+
+   <script src="app.js"></script>
+</body>
+
+</html>
